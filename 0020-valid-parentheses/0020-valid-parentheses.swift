@@ -13,29 +13,24 @@ private struct Stack<Character> {
     }
 }
 class Solution {
+    let pair: [Character:Character] = ["(":")", "[":"]", "{":"}"]
     func isValid(_ s: String) -> Bool {
         var myStack = Stack<Character>()
 
         for char in s {
-            if char == "(" || char == "[" || char == "{" {
+            if pair.keys.contains(char) {
                 myStack.push(char)
             }
-            else if char == ")" { 
-                if myStack.isEmpty() || myStack.pop() != "(" {
+            if pair.values.contains(char) { 
+                if myStack.isEmpty() {
                     return false
                 }
-            }
-            else if char == "]" {
-                if myStack.isEmpty() || myStack.pop() != "[" {
-                    return false
+                if let last = myStack.pop() {
+                    if pair[last] != char {
+                        return false
+                    }   
                 }
             }
-            else if char == "}" {
-                 if myStack.isEmpty() || myStack.pop() != "{" {
-                    return false
-                }
-            }
-            
         }
         if myStack.isEmpty() {
             return true
