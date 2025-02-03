@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2195-time-needed-to-buy-tickets](https://github.com/godjihye/LeetCode-swift/tree/master/2195-time-needed-to-buy-tickets) |
+| [3429-special-array-i](https://github.com/godjihye/LeetCode-swift/tree/master/3429-special-array-i) |
 ## Queue
 |  |
 | ------- |
