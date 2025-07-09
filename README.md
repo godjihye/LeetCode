@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/godjihye/LeetCode-swift/tree/master/0014-longest-common-prefix) |
 | [2195-time-needed-to-buy-tickets](https://github.com/godjihye/LeetCode-swift/tree/master/2195-time-needed-to-buy-tickets) |
 | [3429-special-array-i](https://github.com/godjihye/LeetCode-swift/tree/master/3429-special-array-i) |
 ## Queue
@@ -49,4 +50,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1827-invalid-tweets](https://github.com/godjihye/LeetCode-swift/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/godjihye/LeetCode-swift/tree/master/1908-recyclable-and-low-fat-products) |
 | [2087-confirmation-rate](https://github.com/godjihye/LeetCode-swift/tree/master/2087-confirmation-rate) |
+## String
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/godjihye/LeetCode-swift/tree/master/0014-longest-common-prefix) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/godjihye/LeetCode-swift/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
